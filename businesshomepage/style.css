@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding:0 ;
+}
+
+body{
+	font-family: arial,sans-serif,helvetica;
+}
+#main-container{
+	background: linear-gradient(to right, #00001a, #0000cc);
+}
+
+#inner-container{
+	width: 90%;
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	height: 180px;
+	color: #fff;
+
+}
+
+#inner-header{
+	width: 100%;
+	height: 110px;
+	padding-top: 40px;
+
+}
+
+#logo-main{
+	width: 240px;
+}
+.header-contact-info{
+	width: 25%;
+	height: 110px;
+	float: left;
+	display: block;
+
+}
+
+.div-address{
+	float: left;
+}
+
+
+.header-contact-info-icon{
+	width: 15%;
+
+}
+
+.header-contact-info-icon img{
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.header-contact-info-text{
+	padding-top: 10px;
+	width: 85%;
+	float: left;
+}
+
+
+#nav{
+	background-color: #fff;
+	height: 60px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	clear: both;
+	box-sizing: border-box;
+	clear: both;
+}
+
+#nav a{
+	display: block;
+	float: left;
+	height: 60px;
+	width: 11.11%;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+#nav a:hover{
+	color: #ffcc00;
+}
+
+#inner-main{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.sub-title{
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+}
+
+#footer{
+	background-image: url('img/footer-img.jpg');
+	background-color: rgba(255, 255, 255, 0.1);
+	height: 380px;
+	width: 100%;
+}
+
+#inner-footer{
+	width: 90%;
+	height: 380px;
+	margin: auto;
+box-sizing: border-box;
+	clear: both;
+	contain: "";
+
+}
+
+#inner-footer:after{
+	box-sizing: border-box;
+	clear: both;
+	contain: "";
+}
+
+.footer-div3{
+	width: 33.33%;
+	height: 380px;
+	float: left;
+	display: block;
+
+}
+
+.footer-div2{
+	width: 50%;
+	height: 380px;
+	float: left;
+	padding-top: 30px;
+}
+
+#logo-footer{
+	padding-top: 0px;
+}
+
+
+
+
+.service-title{
+	text-align: center;
+}
+
+.service-icon{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	display: block;
+}
+
+
+.icon2{
+	padding-top: 40px;
+}
+
+.logo-footer{
+	width:350px;
+	height:280px;
+}
+
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  #header{
+  	background-color: red;
+  }
+
+  #logo-main{
+		width: 100px;
+	}
+
+	.header-contact-info{
+		float: none;
+	}
+}
+
+/* Styles for screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* CSS rules specific to medium-sized screens */
+}
+
+/* Styles for screens larger than 901px */
+@media (min-width: 901px) {
+  /* CSS rules specific to larger screens */
+}
